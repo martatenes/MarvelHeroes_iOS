@@ -17,9 +17,9 @@ La estructura del proyecto se compone de los siguientes paquetes:
 * Services: Clases donde se define la estructura que tendrán las llamadas a la API y su implementación
 * Model: Clases para el modelo
 * Splash: Un ejemplo de estructura para una vista
- * SplashPresenter: Presentador encargado de comunicarse con la vista y el modelo
- * SplashView: Interfaz donde se definen los métodos a implementar en el viewcontroller
- * SplashVC: ViewController con la lógica de la vista
+ - SplashPresenter: Presentador encargado de comunicarse con la vista y el modelo
+ - SplashView: Interfaz donde se definen los métodos a implementar en el viewcontroller
+ - SplashVC: ViewController con la lógica de la vista
 
 Al inicio de la aplicación se muestra un splash simulando un loading con un timer de 2 segundos. 
 Después pasamos al viewcontroller principal con el listado de los superhéroes llamando a la API y retornandolos. Se ha utilizado un collectionView con 2 celdas por fila.
